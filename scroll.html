@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="con-min-width padding-0-10">
+        <!-- logo-bar -->
+        <div class="con flex flex-jc-c">
+            <div class="logo-bar" >
+                <a href="#" class="logo">
+                    <span><i class="fa-solid fa-snowflake"></i></span>
+                    <span>SNOW SHOP</span>
+                </a>
+            </div>
+        </div>
+        <!-- menu bar -->
+        <div class="con">
+            <div class="menu-bar">
+                <nav class="menu-bar__menu-1">
+                    <ul>
+                        <li class="width-1-7"><a href="#" class="block">home</a></li>
+                        <li class="width-1-7"><a href="#" class="block">article</a></li>
+                        <li class="width-1-7"><a href="#" class="block">news</a></li>
+                        <li class="width-1-7"><a href="#" class="block">about</a></li>
+                        <li class="width-1-7"><a href="#" class="block">sns</a></li>
+                        <li class="width-1-7"><a href="#" class="block">faq</a></li>
+                        <li class="width-1-7"><a href="#" class="block">brand</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- title bar -->
+    <section class="title-bar con-min-width padding-0-10">
+        <h1 class="con"><i class="fa-solid fa-stroopwafel"> N e w &nbsp; I t e m s</i></h1>
+    </section>
+
+    <!-- slider -->
+    <section class="section-slider con-min-width">
+        <div class="con">
+            <div class="my-slider-1">
+                <div class="my-slider-1__nav">
+                    <div class="my-slider-1__nav-btn my-slider-1__nav-btn-left"><i class="fas fa-chevron-left"></i></div>
+                    <div class="my-slider-1__nav-btn my-slider-1__nav-btn-right"><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/445/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/862/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/365/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/558/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/74/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/85/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/455/1500/600" alt="img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://picsum.photos/id/361/1500/600" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="my-slider-1__pagination flex flex-jc-c"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- product list -->
+    <section class="section-prod-list con-min-width padding-0-10">
+        <div class="con">
+            <div class="prod-list">
+                <ul class="flex flex-wrap">
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/201/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 1</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 1</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/203/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 2</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 2</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/209/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 3</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 3</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/305/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 4</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 4</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/308/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 5</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 5</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/400/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 6</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 6</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/500/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 7</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 7</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/654/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 8</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 8</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/125/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 9</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 9</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                    <li class="width-25p">
+                        <div class="prod-list__prod-img img-box">
+                            <img src="https://picsum.photos/id/368/350/300" alt="img">
+                            <div class="prod-list__prod-img-text">ITEM 10</div>
+                        </div>
+                        <div class="prod-list__prod-name">ITEM 10</div>
+                        <div class="prod-list__prod-price">$19.99</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="scroll.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</body>
+</html>
